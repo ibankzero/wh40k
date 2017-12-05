@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="12" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2128-f196-8f1c-b352" name="Chaos - FW Heretic Astartes" revision="14" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -876,7 +876,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="625.0"/>
+        <cost name="pts" costTypeId="points" value="650.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="32.0"/>
       </costs>
     </selectionEntry>
@@ -1152,7 +1152,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="139.0"/>
+        <cost name="pts" costTypeId="points" value="170.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
       </costs>
     </selectionEntry>
@@ -2010,7 +2010,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2417,7 +2417,15 @@
                       <profiles/>
                       <rules/>
                       <infoLinks/>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="set" field="points" value="27.5">
+                          <repeats/>
+                          <conditions>
+                            <condition field="selections" scope="c593-94fc-fbf9-d0df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="15ca-c83f-e1e1-2634" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                       <constraints/>
                       <categoryLinks/>
                     </entryLink>
@@ -2636,7 +2644,15 @@
                       <profiles/>
                       <rules/>
                       <infoLinks/>
-                      <modifiers/>
+                      <modifiers>
+                        <modifier type="set" field="points" value="27.5">
+                          <repeats/>
+                          <conditions>
+                            <condition field="selections" scope="c593-94fc-fbf9-d0df" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fa2a-ecdc-50db-1d8b" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                       <constraints/>
                       <categoryLinks/>
                     </entryLink>
@@ -2730,7 +2746,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="116.0"/>
+        <cost name="pts" costTypeId="points" value="103.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
       </costs>
     </selectionEntry>
@@ -2820,7 +2836,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="23.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3497,7 +3513,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="90.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3861,7 +3877,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="pts" costTypeId="points" value="110.0"/>
+        <cost name="pts" costTypeId="points" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1979-cfe3-0978-9913" name="Magna-melta cannon" hidden="false" collective="false" type="upgrade">
@@ -3890,7 +3906,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="52.0"/>
+        <cost name="pts" costTypeId="points" value="70.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4546,8 +4562,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="75.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31a0-13f1-0374-f511" name="Hellforged Sicaran Venator" book="" page="18" hidden="false" collective="false" type="model">
@@ -4842,7 +4858,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="14.0"/>
-        <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="pts" costTypeId="points" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6604-417b-f7c7-6084" name="Malignatas beam laser" hidden="false" collective="false" type="upgrade">
@@ -4871,8 +4887,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb46-865e-8ccf-a439" name="Hellforged Spartan Assault Tank" book="" page="19" hidden="false" collective="false" type="model">
@@ -5588,7 +5604,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name="pts" costTypeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4b3-4fd8-7f2f-b748" name="Ectoplasma battery" hidden="false" collective="false" type="upgrade">
@@ -5648,7 +5664,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7bc0-e786-b50f-2160" name="Greater havoc launcher" hidden="false" collective="false" type="upgrade">
@@ -5862,7 +5878,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="13.0"/>
+                <cost name="pts" costTypeId="points" value="10.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -6235,7 +6251,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="32.5">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="f6c4-89ad-891b-4beb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca57-f8f3-c560-50da" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -6243,7 +6267,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="37.5">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="f6c4-89ad-891b-4beb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b229-bcd2-f0e9-79fe" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -6290,7 +6322,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="32.5">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="f6c4-89ad-891b-4beb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c36a-56e7-7142-6669" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -6298,7 +6338,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="points" value="37.5">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="f6c4-89ad-891b-4beb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c1d1-4102-c430-9840" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -6674,7 +6722,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
-        <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="pts" costTypeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e730-3bab-f956-9a95" name="Hellforged Kharybdis Assault Claw" hidden="false" collective="false" type="model">
@@ -6890,7 +6938,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="15.0"/>
-        <cost name="pts" costTypeId="points" value="300.0"/>
+        <cost name="pts" costTypeId="points" value="375.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c8f-8122-f2dc-ba7b" name="Hellforged Cerberus Heavy Destroyer" hidden="false" collective="false" type="model">
@@ -7190,7 +7238,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="23.0"/>
-        <cost name="pts" costTypeId="points" value="470.0"/>
+        <cost name="pts" costTypeId="points" value="650.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e11-52d2-afb1-9888" name="Blade struts" hidden="false" collective="false" type="upgrade">
@@ -7661,7 +7709,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="25.0"/>
-        <cost name="pts" costTypeId="points" value="500.0"/>
+        <cost name="pts" costTypeId="points" value="700.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="baee-fa80-570b-4ed5" name="Dreadhammer siege cannon" hidden="false" collective="false" type="upgrade">
@@ -8028,7 +8076,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="35.0"/>
-        <cost name="pts" costTypeId="points" value="520.0"/>
+        <cost name="pts" costTypeId="points" value="740.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01a3-370f-518c-428a" name="Fellblade accelerator cannon" hidden="false" collective="false" type="upgrade">
@@ -8428,7 +8476,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="38.0"/>
-        <cost name="pts" costTypeId="points" value="600.0"/>
+        <cost name="pts" costTypeId="points" value="840.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d64e-f9b2-1c13-799a" name="Twin volcano cannon" hidden="false" collective="false" type="upgrade">
@@ -8701,7 +8749,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="42.0"/>
-        <cost name="pts" costTypeId="points" value="704.0"/>
+        <cost name="pts" costTypeId="points" value="934.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="42f0-f542-616d-ca97" name="Skyreaper battery" hidden="false" collective="false" type="upgrade">
@@ -9309,7 +9357,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="12.0"/>
-        <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="pts" costTypeId="points" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ebf-e4c7-f8ca-ce1b" name="Chaos Storm Eagle Assault Gunship" hidden="false" collective="false" type="model">
@@ -9717,7 +9765,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10043,7 +10091,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="19.0"/>
-        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="pts" costTypeId="points" value="190.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88ec-9f2a-62ee-02a9" name="Twin avenger bolt cannon" hidden="false" collective="false" type="upgrade">
@@ -10102,7 +10150,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="42.0"/>
+        <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -10436,7 +10484,7 @@
       <entryLinks/>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="42.0"/>
-        <cost name="pts" costTypeId="points" value="650.0"/>
+        <cost name="pts" costTypeId="points" value="1330.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2794-0f5d-d477-3f46" name="Thunderhawk heavy cannon" hidden="false" collective="false" type="upgrade">
@@ -10847,7 +10895,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="50.0"/>
-        <cost name="pts" costTypeId="points" value="651.0"/>
+        <cost name="pts" costTypeId="points" value="2000.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="555d-eeef-5249-a648" name="Dreadstrike missiles" hidden="false" collective="false" type="upgrade">
@@ -11083,7 +11131,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
-        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name="pts" costTypeId="points" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01ba-a1b4-2434-59f1" name="Soulstalker missiles" hidden="false" collective="false" type="upgrade">
@@ -11294,7 +11342,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="pts" costTypeId="points" value="130.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
       </costs>
     </selectionEntry>
@@ -12041,7 +12089,7 @@
           <entryLinks/>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="12.0"/>
+            <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12123,7 +12171,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="pts" costTypeId="points" value="20.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -12362,7 +12410,7 @@
           <entryLinks/>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="12.0"/>
+            <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a42-1854-7475-ada1" name="Dark Abeyant" hidden="false" collective="false" type="upgrade">
@@ -12947,18 +12995,24 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a34e-5842-d02c-aa2b" type="equalTo"/>
+                    <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46b0-2d96-9ae9-fcf9" type="equalTo"/>
-                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6953-d88f-40ce-231f" type="equalTo"/>
-                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ce-45ca-8f58-d9ff" type="equalTo"/>
+                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                       </conditions>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ce-45ca-8f58-d9ff" type="equalTo"/>
+                            <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6953-d88f-40ce-231f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
@@ -12995,18 +13049,24 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a34e-5842-d02c-aa2b" type="equalTo"/>
+                    <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46b0-2d96-9ae9-fcf9" type="equalTo"/>
-                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ce-45ca-8f58-d9ff" type="equalTo"/>
-                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6953-d88f-40ce-231f" type="equalTo"/>
+                        <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                       </conditions>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6953-d88f-40ce-231f" type="equalTo"/>
+                            <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91ce-45ca-8f58-d9ff" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
@@ -13082,7 +13142,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ba1e-6dcc-1f60-f211" name="Helbrute fist options" hidden="false" collective="false" defaultSelectionEntryId="46b0-2d96-9ae9-fcf9">
+        <selectionEntryGroup id="ba1e-6dcc-1f60-f211" name="Helbrute fist options" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13093,67 +13153,6 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="46b0-2d96-9ae9-fcf9" name="Helbrute fist" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="d64c-8b29-35b3-1d21" name="Helbrute fist" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="9ea6-c5ce-a51d-9f6d" name="Ranged options" hidden="false" collective="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a27-7789-27fb-27a4" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="ac71-f087-30b7-41d5" name="New EntryLink" hidden="false" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="d57d-8b13-e82c-0b79" name="New EntryLink" hidden="false" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="40.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="6953-d88f-40ce-231f" name="Helbrute hammer" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="9417-226f-a655-ba69" name="Helbrute hammer" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13233,6 +13232,22 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="4a0e-ef04-6cad-8bf5" name="Helbrute fist" hidden="false" targetId="0fb7-cd07-ecfc-1db8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="25">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0937-f7a5-3398-1712" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="31b3-7961-a807-1d25" name="Multi-melta options" hidden="false" collective="false" defaultSelectionEntryId="3e8a-098c-184c-bb22">
@@ -13246,67 +13261,6 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="a34e-5842-d02c-aa2b" name="Helbrute fist" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="788d-e3c2-6d7c-73a7" name="Helbrute fist" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="27f7-6118-28bc-00d6" name="Ranged options" hidden="false" collective="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dba3-a854-371e-4290" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="97f8-cf4d-d025-b188" name="New EntryLink" hidden="false" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="f105-3be7-3a27-fff9" name="New EntryLink" hidden="false" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="40.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="a3d1-274e-ddd9-bdcb" name="Helbrute plasma cannon" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="7029-099d-7c79-5639" name="Helbrute plasma cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13388,6 +13342,22 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="0937-f7a5-3398-1712" name="Helbrute fist" hidden="false" targetId="0fb7-cd07-ecfc-1db8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="25">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="2cc8-0e93-7906-cdf0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4a0e-ef04-6cad-8bf5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -13439,18 +13409,24 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5dd-9086-fd9d-5857" type="equalTo"/>
+                    <condition field="selections" scope="3672-0dd5-d396-dc4b" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dacd-d812-377e-af38" type="equalTo"/>
-                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc36-13de-3194-d92c" type="equalTo"/>
-                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dae-54fd-c8bf-1d8d" type="equalTo"/>
+                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                       </conditions>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc36-13de-3194-d92c" type="equalTo"/>
+                            <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dae-54fd-c8bf-1d8d" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
@@ -13487,18 +13463,24 @@
               <repeats/>
               <conditions/>
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b5dd-9086-fd9d-5857" type="equalTo"/>
+                    <condition field="selections" scope="3672-0dd5-d396-dc4b" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                   </conditions>
                   <conditionGroups>
-                    <conditionGroup type="or">
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc36-13de-3194-d92c" type="equalTo"/>
-                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dacd-d812-377e-af38" type="equalTo"/>
-                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dae-54fd-c8bf-1d8d" type="equalTo"/>
+                        <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0fb7-cd07-ecfc-1db8" type="equalTo"/>
                       </conditions>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9dae-54fd-c8bf-1d8d" type="equalTo"/>
+                            <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dc36-13de-3194-d92c" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </conditionGroup>
@@ -13601,13 +13583,13 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="22.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1d3e-1b81-4155-28be" name="Helbrute fist options" hidden="false" collective="false" defaultSelectionEntryId="dacd-d812-377e-af38">
+        <selectionEntryGroup id="1d3e-1b81-4155-28be" name="Helbrute fist options" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13618,67 +13600,6 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="dacd-d812-377e-af38" name="Helbrute fist" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="96a8-6585-0a7d-ad0a" name="Helbrute fist" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="ba9b-a66c-a420-f35e" name="Ranged options" hidden="false" collective="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f928-0d31-3623-e2d7" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="8814-8757-2b43-4c49" name="New EntryLink" hidden="false" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="54a3-1fa2-30ae-2bde" name="New EntryLink" hidden="false" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="40.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="dc36-13de-3194-d92c" name="Helbrute hammer" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="15b0-0b80-f677-f245" name="Helbrute hammer" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13758,6 +13679,22 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="8a2c-8b11-061e-0025" name="Helbrute fist" hidden="false" targetId="0fb7-cd07-ecfc-1db8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="25">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="302f-2396-9cae-1d09" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="9b11-75fb-4bf6-0ad5" name="Multi-melta options" hidden="false" collective="false" defaultSelectionEntryId="5efb-dd0c-bc9b-07b7">
@@ -13771,67 +13708,6 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="b5dd-9086-fd9d-5857" name="Helbrute fist" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="51cc-285c-8e66-0a96" name="Helbrute fist" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="2896-6a88-9e76-e080" name="Ranged options" hidden="false" collective="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04c-d431-2dac-2fce" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="e5d6-613d-b4be-e4d7" name="New EntryLink" hidden="false" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                    <entryLink id="ed87-c46a-e2a8-0c60" name="New EntryLink" hidden="false" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="40.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="571f-090c-1642-bd35" name="Helbrute plasma cannon" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="9cdd-7830-2bbd-8983" name="Helbrute plasma cannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -13919,7 +13795,7 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="1e06-b6e6-1cee-de87" name="New EntryLink" hidden="false" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
+            <entryLink id="1e06-b6e6-1cee-de87" name="Reaper autocannon" hidden="false" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13952,6 +13828,22 @@
                   <repeats/>
                   <conditions>
                     <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="071c-94e8-72a8-2eaf" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="302f-2396-9cae-1d09" name="Helbrute fist" hidden="false" targetId="0fb7-cd07-ecfc-1db8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="25">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="3672-0dd5-d396-dc4b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2c-8b11-061e-0025" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -14318,6 +14210,67 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fb7-cd07-ecfc-1db8" name="Helbrute fist" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2fb8-648b-111d-dfdb" name="Helbrute fist" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="x2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8da6-9231-b3f9-07bb" name="Ranged options" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5756-b567-de9a-b963" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5289-ca6c-3e18-6c9b" name="New EntryLink" hidden="false" targetId="eba0-9fc6-5334-a390" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2c8a-3a90-ecc5-5831" name="New EntryLink" hidden="false" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
