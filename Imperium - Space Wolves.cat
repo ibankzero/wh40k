@@ -10885,7 +10885,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="f1b0-0433-1885-7684" name="New InfoLink" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
+        <infoLink id="f1b0-0433-1885-7684" name="And They Shall Know No Fear" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10973,63 +10973,7 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="024c-32e9-0cb2-e1b6" name="Weapon Options" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a194-0930-ca83-bd7e" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fda-91b1-f946-926c" type="min"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="f9b1-7f4d-7eae-7ff6" name="Pistols" hidden="false" targetId="058a-6e8f-7cad-395e" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1201-ee4f-aaab-8ef9" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="3df1-d7ba-07fd-ca86" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7375-4029-ecfe-307d" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="8191-e3a6-cd84-1f72" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e46d-2ea3-0b41-8aa4" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="e7bb-c4e2-8b07-ec58" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e5-7118-cda6-da1c" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="3360-61c2-985a-57ed" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <profiles/>
@@ -11040,6 +10984,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="983c-e3e7-4422-aa39" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f71-d8b9-4c0c-3f5b" type="max"/>
               </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="9bd9-d1e1-0108-4d1e" name="Wolf Guard Weapon Options" hidden="false" targetId="4416-af92-2f92-6f67" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -11085,175 +11037,9 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="b9c5-3f4f-771a-39ce" name="Boltgun" hidden="false" collective="false" defaultSelectionEntryId="a492-c6a6-efdd-1dad">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="eb9d-4f95-4b30-abac" value="0.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="ef92-2e7b-ee64-b1fb" value="0.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eb9d-4f95-4b30-abac" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef92-2e7b-ee64-b1fb" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a492-c6a6-efdd-1dad" name="New EntryLink" hidden="false" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c43e-0594-3ebf-5cf1" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="3a98-3987-4046-3edf" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b45-0895-3479-a941" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="9b1c-4b59-e7d5-7640" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9148-9122-b750-3c51" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="ca7c-3060-0a12-09e1" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d3b-e613-6bf7-0313" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="1b3b-e90e-6bdf-1ad7" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f1a-c987-a770-f64b" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="eb28-e3ad-271d-2157" name="Bolt Pistol" hidden="false" collective="false" defaultSelectionEntryId="889d-769e-6a47-bd98">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="809d-129c-7eea-88aa" value="0.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="5c66-3301-d4c9-f855" value="0.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="809d-129c-7eea-88aa" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c66-3301-d4c9-f855" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="889d-769e-6a47-bd98" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="ff04-3cd7-8fa2-bae0" name="New InfoLink" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943a-2b05-e94b-c643" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="ee7b-7634-8881-8aa7" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cab-2ad9-9523-4909" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="61c7-5abc-1e17-047b" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b7-e264-f443-e314" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="1319-0cb0-07cf-310f" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ae57-9070-0afc-9f7e" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="a3ff-93b6-ecb8-2f45" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
+            <entryLink id="a3ff-93b6-ecb8-2f45" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11264,14 +11050,12 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="7378-887c-df8c-c769" name="Wolf Claw (Pair)" hidden="false" targetId="4d28-0ebb-3015-a8f1" type="selectionEntry">
+            <entryLink id="2080-b713-d448-5ba0" name="Wolf Guard Weapon Options" hidden="false" targetId="4416-af92-2f92-6f67" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d84-4cd0-daf1-5a83" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -11391,141 +11175,7 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a0e7-c166-43c2-e405" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="843f-adbb-1493-4fae">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96e9-2276-d260-0dc4" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="443c-8a81-8fcd-a8f5" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="843f-adbb-1493-4fae" name="New EntryLink" hidden="false" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a60-6cb3-1572-119a" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="b1a9-5e0a-13d9-cd32" name="New EntryLink" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="afdb-1511-dc14-a236" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="1a06-49e4-3916-48e7" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa29-3cdc-55dc-89ec" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="3f9d-43db-9a06-321a" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f2-0bf5-73e3-0d82" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="f25f-6c59-a472-d2e6" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="d397-f2ce-2d11-0fb8">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a5f2-dd3f-c1a5-1766" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0411-ee12-d539-39d5" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="d397-f2ce-2d11-0fb8" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="106d-a76c-b4de-e7a0" name="Bolt pistol" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b955-aa6f-76bb-f53e" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="74f3-b9dd-08d9-a165" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94b2-aca3-7831-2e65" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="5f5e-8ed7-36a3-7e0e" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7fd-7a6b-e091-bd58" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="d39a-1f03-82ac-879c" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="2748-2639-16ac-fb05" name="Boltgun" hidden="false" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d477-13e7-e1a8-e6ce" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="bc48-c131-5606-a3f0" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <profiles/>
@@ -11538,7 +11188,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="c71d-73cd-4c20-b07d" name="New EntryLink" hidden="false" targetId="2ebb-7fc3-93ed-4f8e" type="selectionEntry">
+            <entryLink id="c71d-73cd-4c20-b07d" name="Bike" hidden="false" targetId="2ebb-7fc3-93ed-4f8e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11547,6 +11197,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3944-9f4d-63c9-f4c7" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="945a-cc57-ebea-6b77" type="max"/>
               </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d661-bf5a-0f0f-89ba" name="Wolf Guard on Bike weapon options" hidden="false" targetId="314c-9169-9822-5370" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -11559,7 +11217,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="8f3d-eec9-2e9e-668a" name="New InfoLink" hidden="false" targetId="7b6f-c5af-3cfe-1dc6" type="profile">
+            <infoLink id="8f3d-eec9-2e9e-668a" name="Wolf Guard on Bike" hidden="false" targetId="7b6f-c5af-3cfe-1dc6" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11584,158 +11242,8 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1138-4dca-2668-1d83" name="Boltgun" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d26-4cbe-a654-aed5" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="4c4a-ac1b-c5c0-0fd2" name="New EntryLink" hidden="false" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a0-0cb6-5ee4-01fb" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="112c-b00c-464c-9723" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4222-128e-faa1-fde4" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="28bc-f5b2-d116-41f8" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="31e6-b63a-bbe1-4172">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e9bd-22cf-5494-2f0c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5e6-d647-6d62-6585" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="31e6-b63a-bbe1-4172" name="New EntryLink" hidden="false" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb6-7eef-2032-4f7b" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="945c-d58b-0e19-8844" name="New EntryLink" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0b73-6fc9-b9f3-6467" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="9633-e95f-2ce5-ea0d" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="e47e-25f4-9103-6a2d">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e474-bc7e-f99b-11ce" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f3c-9df3-da1d-98c0" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="e47e-25f4-9103-6a2d" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="3a87-17c1-3ea4-f219" name="New InfoLink" hidden="false" targetId="e6d5-677a-d8ed-f6a5" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e4-9b7d-1c00-ab23" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="4255-61f9-8397-3467" name="New EntryLink" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cca-70f7-0a07-df7a" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="b207-72ea-77c1-78df" name="New EntryLink" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b954-febe-f057-a7d5" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="58de-bdd0-d568-920b" name="New EntryLink" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="68a0-6f64-b8e5-f621" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="32a5-6c4b-0ef4-6c99" name="New EntryLink" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e81-00e5-0981-dcec" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
             <entryLink id="4b21-c807-8eed-4fb0" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -11747,7 +11255,7 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="9bb8-d2ee-0526-d0aa" name="New EntryLink" hidden="false" targetId="2ebb-7fc3-93ed-4f8e" type="selectionEntry">
+            <entryLink id="9bb8-d2ee-0526-d0aa" name="Bike" hidden="false" targetId="2ebb-7fc3-93ed-4f8e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11756,6 +11264,14 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9d4-92ba-bd3e-f44c" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a23b-4f9b-da92-8c3f" type="max"/>
               </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4cb2-c161-e44e-354a" name="Wolf Guard on Bike weapon options" hidden="false" targetId="314c-9169-9822-5370" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -19241,7 +18757,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="604c-53cb-4ccd-159f" name="New InfoLink" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
+        <infoLink id="604c-53cb-4ccd-159f" name="And They Shall Know No Fear" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19314,78 +18830,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="460d-5091-b91c-9da0" name="Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="f801-7194-207c-9465">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="0cd0-9760-05d0-81e0" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="175a-6df1-2612-33a3" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cd0-9760-05d0-81e0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="175a-6df1-2612-33a3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="f801-7194-207c-9465" name="Master-crafted boltgun" hidden="false" targetId="c215-aaf9-77ef-27fb" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81a1-388a-ce03-83f3" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="bb93-6fa0-c1d0-acab" name="Pistols" hidden="false" targetId="058a-6e8f-7cad-395e" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9dab-7060-34d4-053b" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="e93a-0386-55d9-22ce" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c16-2781-7e8d-0559" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="6f87-c0c3-ccd7-49b7" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f424-1b12-836d-a7f0" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="5b8b-6941-e453-6a22" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <profiles/>
@@ -19411,42 +18856,6 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b42c-807e-cda8-9e4c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="32bc-fb52-b064-3826" name="Wolf Claw (Pair)" hidden="false" targetId="4d28-0ebb-3015-a8f1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="103d-4463-1349-f3cd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="6438-cc66-7d3e-e524" name="Wolf Lord Melee Weapon" hidden="false" targetId="ed66-360b-493b-595d" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="4970-58b6-ccab-0963" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="cfca-038e-2e0b-a2e8" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4970-58b6-ccab-0963" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cfca-038e-2e0b-a2e8" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -19482,6 +18891,25 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="235f-5a21-627c-9fc5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ef2d-a25f-e9c6-a745" name="Wolf Lord weapon options" hidden="false" targetId="2e2e-81bd-eaca-43a9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="27e4-96f3-e3a3-1712" name="Bolt Pistol" hidden="false" targetId="c570-6b1e-425b-9f22" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b68-5e95-93c5-d1c4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="175d-d8d5-4a6c-c437" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -19767,144 +19195,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="b927-56e8-79c8-5361" name="Replace Boltgun" hidden="false" collective="false" defaultSelectionEntryId="7b21-ddbe-e25e-b9b9">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="6d83-8caa-febf-3920" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="80f0-4fea-fe0d-10c4" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6d83-8caa-febf-3920" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="80f0-4fea-fe0d-10c4" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="7b21-ddbe-e25e-b9b9" name="Master-crafted boltgun" hidden="false" targetId="c215-aaf9-77ef-27fb" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ed-4543-c2c2-70f0" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="712b-1092-4388-e6ae" name="Pistols" hidden="false" targetId="058a-6e8f-7cad-395e" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="58f5-c9dd-eac4-c9fe" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="30b2-5db9-374a-7284" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="38d5-90c8-48ac-090a" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="cefd-77b5-c938-6bf7" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e080-7d7f-f867-72c8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="92f4-df5d-fdcf-208f" name="Replace Chainsword" hidden="false" collective="false" defaultSelectionEntryId="3c79-303d-0bc1-d51d">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="62fc-a169-71da-4136" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="737f-725c-b77b-75ed" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d28-0ebb-3015-a8f1" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="62fc-a169-71da-4136" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="737f-725c-b77b-75ed" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="4452-e343-aee4-f87b" name="Melee Weapon" hidden="false" targetId="ed66-360b-493b-595d" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e9-7918-9c62-9e35" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="3c79-303d-0bc1-d51d" name="Chainsword" hidden="false" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="77d9-282b-ccb5-2d50" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="8190-db6e-4db0-2aac" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="15">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e4ca-965f-7842-8287" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="4f54-0efc-0e81-07af" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <profiles/>
@@ -19925,16 +19216,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc48-e92a-a80d-4b1c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b0-7fb8-50f5-3e52" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="efe2-f544-7fee-57c2" name="Wolf Claw (Pair)" hidden="false" targetId="4d28-0ebb-3015-a8f1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="865f-00d5-cc49-2a13" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -19970,6 +19251,25 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ceb-6f0e-b3e7-4e53" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="17ae-1277-631a-6a14" name="Wolf Lord weapon options" hidden="false" targetId="2e2e-81bd-eaca-43a9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9282-4a0f-90b8-67fc" name="Bolt Pistol" hidden="false" targetId="c570-6b1e-425b-9f22" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d10-b45c-82ae-1f1b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0052-9cc5-0081-3a26" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -23661,16 +22961,8 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="ce19-0bf4-dfc4-4a73" value="0.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce19-0bf4-dfc4-4a73" type="min"/>
-          </constraints>
+          <modifiers/>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -23689,24 +22981,37 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="7744-ec34-f9ef-1063" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7744-ec34-f9ef-1063" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53fa-d066-d080-b741" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0a8e-58cf-ccc7-6464" name="New EntryLink" hidden="false" targetId="74f4-aa33-b158-eb71" type="selectionEntry">
+        <entryLink id="0a8e-58cf-ccc7-6464" name="Frost axe" hidden="false" targetId="74f4-aa33-b158-eb71" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="160f-4537-24a4-0d54" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="90de-aba3-ee2f-09fc" name="New EntryLink" hidden="false" targetId="2463-f863-77ca-706c" type="selectionEntry">
+        <entryLink id="90de-aba3-ee2f-09fc" name="Frost sword" hidden="false" targetId="2463-f863-77ca-706c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c8-c7b9-669d-1733" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="5bdf-1754-acc9-fc32" name="Lightning Claw" hidden="false" targetId="90de-7b01-e401-888b" type="selectionEntry">
@@ -23714,47 +23019,59 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ab-d8e3-ada3-78ed" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8be9-0765-7b60-edec" name="New EntryLink" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
+        <entryLink id="8be9-0765-7b60-edec" name="Power axe" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4b-031b-3ebc-1fa1" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8b75-d70b-1b4e-fd5d" name="New EntryLink" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
+        <entryLink id="8b75-d70b-1b4e-fd5d" name="Power fist" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e7e-ba82-638b-a72d" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1d94-66e0-b629-4ff0" name="New EntryLink" hidden="false" targetId="6ea7-1195-7144-438e" type="selectionEntry">
+        <entryLink id="1d94-66e0-b629-4ff0" name="Power maul" hidden="false" targetId="6ea7-1195-7144-438e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a100-3e99-a705-85b0" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cda7-063d-ba30-bb81" name="New EntryLink" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+        <entryLink id="cda7-063d-ba30-bb81" name="Power sword" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6410-b40f-561a-9d0b" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6d05-d0ea-4345-2022" name="New EntryLink" hidden="false" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+        <entryLink id="6d05-d0ea-4345-2022" name="Thunder hammer" hidden="false" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52bf-33e8-ee2c-80d2" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="494f-9b9f-0470-cde1" name="Wolf claw" hidden="false" targetId="306f-99be-7b1a-8977" type="selectionEntry">
@@ -23762,7 +23079,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f62-d120-689f-c28c" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -24495,7 +23814,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d57c-beb6-7182-b3f7" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -24881,15 +24202,19 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2321-180a-2c89-0f56" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="8782-4e4f-1d67-ce9f" name="" hidden="false" targetId="2463-f863-77ca-706c" type="selectionEntry">
+        <entryLink id="8782-4e4f-1d67-ce9f" name="Frost sword" hidden="false" targetId="2463-f863-77ca-706c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="322f-9607-58ae-4875" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="b8f6-baea-c3d5-e88f" name="Lightning Claw" hidden="false" targetId="90de-7b01-e401-888b" type="selectionEntry">
@@ -24897,47 +24222,59 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0057-7fea-5e64-42f3" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0fc0-7159-375c-af37" name="" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
+        <entryLink id="0fc0-7159-375c-af37" name="Power axe" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1cf-a112-57ca-c249" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6902-a823-3b95-b967" name="" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
+        <entryLink id="6902-a823-3b95-b967" name="Power fist" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a5-c37b-eae3-140f" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2062-4246-3ea6-27e0" name="" hidden="false" targetId="6ea7-1195-7144-438e" type="selectionEntry">
+        <entryLink id="2062-4246-3ea6-27e0" name="Power maul" hidden="false" targetId="6ea7-1195-7144-438e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6cb-e608-9ec9-2486" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6cc5-478a-8993-43f0" name="" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+        <entryLink id="6cc5-478a-8993-43f0" name="Power sword" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7591-5140-291c-c0d9" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2c09-037f-3862-4c9a" name="New EntryLink" hidden="false" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+        <entryLink id="2c09-037f-3862-4c9a" name="Thunder hammer" hidden="false" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3976-d117-74a0-c37f" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="ae3c-e7d4-b93b-39b2" name="Wolf claw" hidden="false" targetId="306f-99be-7b1a-8977" type="selectionEntry">
@@ -24945,31 +24282,36 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f50b-f97a-a6ef-0fcc" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="64a2-13d1-1ce6-e2a9" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+        <entryLink id="7626-cd65-6289-4150" name="Relic blade" hidden="false" targetId="0140-c9f2-0524-34cc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7626-cd65-6289-4150" name="" hidden="false" targetId="0140-c9f2-0524-34cc" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c41-24b3-aeca-f494" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="d476-57b3-f3e7-4ed6" name="Chainsword" hidden="false" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="set" field="35a5-1d3d-ffb0-8af7" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08c6-c25a-a5ea-5d28" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a5-1d3d-ffb0-8af7" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -25223,6 +24565,409 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4416-af92-2f92-6f67" name="Wolf Guard weapon options" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76db-65d7-b904-8567" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d137-78fd-f533-2040" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3369-50c9-2856-ba3d" name="Space Wolves Combi-Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca2-8f5e-444c-ff31" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1506-9f79-dcbe-658e" name="Storm bolter" hidden="false" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="3adb-7a4b-950d-b77d" name="New EntryLink" hidden="false" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4b6e-ab14-dd6c-b534" name="Combi-flamer" hidden="false" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="557d-3694-7686-c3be" name="New EntryLink" hidden="false" targetId="c445-e211-f316-5d83" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c708-cd14-aaad-9a4f" name="Boltgun" hidden="false" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="ca32-f413-6977-3c46" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca32-f413-6977-3c46" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="06a7-6aaa-aa94-4d82" name="Space Wolves Melee Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d9-d8f3-f664-dc8c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="477b-0b9d-e64e-19da" name="Chainsword" hidden="false" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec8d-d3d9-a5da-8e2c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4894-9413-7a13-e55c" name="Frost axe" hidden="false" targetId="74f4-aa33-b158-eb71" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3272-72c2-335d-2033" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e415-2c97-a5f6-5b3b" name="Frost sword" hidden="false" targetId="2463-f863-77ca-706c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7468-cdf7-23d3-6d8e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="14d4-248a-2d3a-43b1" name="Lightning Claw" hidden="false" targetId="90de-7b01-e401-888b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2461-9308-0e1a-2e20" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2cde-8e42-4dc6-f3ed" name="Power axe" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc03-8db5-acda-4cfd" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="37d6-dbe6-bcdb-8978" name="Power fist" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b92-1d70-2c04-307f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="140e-06cf-a669-75d6" name="Power maul" hidden="false" targetId="6ea7-1195-7144-438e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87fd-89ee-6089-ef23" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c35e-2a22-a704-8e69" name="Power sword" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0133-0a60-e12d-283d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="76e3-22be-ba01-1c6a" name="Thunder hammer" hidden="false" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b1e-e0b8-f178-1833" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2611-64bd-af19-6755" name="Wolf claw" hidden="false" targetId="306f-99be-7b1a-8977" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7409-9d74-223a-9220" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0e7d-eb98-3ada-3e16" name="Pistols" hidden="false" targetId="058a-6e8f-7cad-395e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1832-fac0-891a-1fb8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e98f-82c4-2009-4f79" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e010-a702-bc18-d58a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="314c-9169-9822-5370" name="Weapon options" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3d2-d264-c600-a67b" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f362-3923-45bf-d9a2" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c78c-581d-9622-0204" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="641b-e4cc-070d-ef39" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2a67-788e-e045-8e8a" name="Pistols" hidden="false" targetId="058a-6e8f-7cad-395e" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b92-7ec5-66ec-bd1a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="655a-7822-3e98-a4c1" name="Space Wolves Combi-Weapons" hidden="false" targetId="7f09-4a38-01f4-3e9a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7e8-9925-247e-7d52" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7c20-98af-1c59-1a09" name="Space Wolves Melee Weapons" hidden="false" targetId="5283-211e-6d8e-ca9a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fcf-8f19-5470-fe4d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2e2e-81bd-eaca-43a9" name="Wolf Lord weapon options" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="379f-6c80-5903-9257" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fba6-4122-c765-0927" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8dec-5f9a-5ad7-2c4e" name="Pistols" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="843b-383b-b666-e741" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e9d4-1d06-f26f-9fc4" name="Bolt Pistol" hidden="false" targetId="c570-6b1e-425b-9f22" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c772-d3e9-5651-0459" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="19a0-1f99-7dbf-6e2b" name="Storm shield" hidden="false" targetId="38b5-ef30-f87f-5275" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b802-05b1-704e-49f6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="59ba-58c4-f121-8191" name="Wolf Lord Ranged Weapons" hidden="false" targetId="f913-c964-de21-355a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c15-73ff-1b69-fc4f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a3d-7a1d-57cc-73de" name="Wolf Lord Melee Weapon" hidden="false" targetId="ed66-360b-493b-595d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc3-eb8b-bfae-99c4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f913-c964-de21-355a" name="Wolf Lord Ranged Weapon" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f0d0-9a07-21eb-ecde" name="Storm bolter" hidden="false" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4b88-8760-3328-da2e" name="New EntryLink" hidden="false" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="487f-01ff-6b25-76ee" name="Combi-flamer" hidden="false" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ae56-bf5e-a490-3bbd" name="New EntryLink" hidden="false" targetId="c445-e211-f316-5d83" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4703-085e-fb39-293d" name="Master-crafted boltgun" hidden="false" targetId="c215-aaf9-77ef-27fb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="49bf-9f8d-76ba-6004" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49bf-9f8d-76ba-6004" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
